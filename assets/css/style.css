@@ -237,3 +237,53 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+*/
+body {
+  /* Typography */
+  font-size: 18px;
+  line-height: 27px;
+
+  /* Visual */
+  background-color: #ccc;
+}
+
+/*
+  The width of the wrapper will be 980px
+  at browser widths above 768px
+*/
+.wrapper {
+  /* Box-model */
+  width: 980px;
+
+  /* Positioning */
+  margin: 40px auto;
+}
+
+#main-content,
+#sidebar {
+  /* Box-model */
+  width: 500px;
+  padding: 30px;
+}
+
+#main-content {
+  /* Positioning */
+  float: left;
+
+  /* Visual */
+  background: #fff;
+}
+
+#sidebar {
+  /* Positioning */
+  float: right;
+
+  /* Visual */
+  background: #eee;
+}
+
+
